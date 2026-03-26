@@ -18,7 +18,8 @@ We are interested in accurately modeling these relationships, generating sample 
 ![Coffee Shop Data Model](DataModel_CoffeeShop.png)
 
 ## Data Dictionary
-![Employee Data Dictionary](DataDict_Employees.png)
+![Employee Data Dictionary]<img width="1560" height="841" alt="DataDict_Employees" src="https://github.com/user-attachments/assets/0b00ac91-8be9-4db2-9fe6-213d07688d7d" />
+
 ![Customer Data Dictionary](DataDict_Customers.png)
 ![StoreLocation and Loyalty Account Data Dictionary](DataDict_StoreLoc_Loyal.png)
 ![Orders Data Dictionary](DataDict_Orders.png)
@@ -29,5 +30,3 @@ We are interested in accurately modeling these relationships, generating sample 
 ![Supplier and Product Supplier Data Dictionary](DataDict_Supplier_ProductSup.png)
 ## Queries
 
-
-<img width="1449" height="923" alt="DataDict_Sup_ProdSup" src="https://github.com/user-attachments/assets/54ae8c09-2e7e-4056-957d-610b0ca49dd3" />
