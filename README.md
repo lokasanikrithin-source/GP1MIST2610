@@ -16,16 +16,18 @@ The coffee shop operates with related entities such as products (menu items), su
 We are interested in accurately modeling these relationships, generating sample data, and populating the entities and their attributes. We aim to perform functional queries on this data to provide important and valuable business insights, such as identifying popular menu items, managing inventory needs, and supporting decision-making for purchasing and operational efficiency.
 ## Data Model
 ![Coffee Shop Data Model](DataModel_CoffeeShop.png)
+
 ## Data Dictionary
 ![Employee Data Dictionary](DataDict_Employees.png)
 ![Customer Data Dictionary](DataDict_Customers.png)
 ![StoreLocation and Loyalty Account Data Dictionary](DataDict_StoreLoc_Loyal.png)
-![Orders](DataDict_Orders.png)
-![OrderItems](DataDict_OrderItems.png)
-![Products](DataDict_Products.png)
-![Payments](DataDict_Payments.png)
-![Category](DataDict_Category.png)
+![Orders Data Dictionary](DataDict_Orders.png)
+![OrderItems Data Dictionary](DataDict_OrderItems.png)
+![Products Data Dictionary](DataDict_Products.png)
+![Payments Data Dictionary](DataDict_Payments.png)
+![Category Data Dictionary](DataDict_Category.png)
 ![Supplier and Product Supplier Data Dictionary](DataDict_Supplier_ProductSup.png)
 ## Queries
 
 ## Database information# GP1MIST2610
+[DataModel_CoffeeShop.html](https://github.com/user-attachments/files/26279305/DataModel_CoffeeShop.html)
