@@ -29,5 +29,5 @@ We are interested in accurately modeling these relationships, generating sample 
 ![Supplier and Product Supplier Data Dictionary](DataDict_Supplier_ProductSup.png)
 ## Queries
 
-## Database information# GP1MIST2610
-[DataModel_CoffeeShop.html](https://github.com/user-attachments/files/26279305/DataModel_CoffeeShop.html)
+
+<img width="1449" height="923" alt="DataDict_Sup_ProdSup" src="https://github.com/user-attachments/assets/54ae8c09-2e7e-4056-957d-610b0ca49dd3" />
