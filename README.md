@@ -1,12 +1,13 @@
-# MIST 4610 Group Project 1 - Group 7
+
+# MIST 4610 Group Project 1
 
 ## Group Members:
 
-1. Donovan D'Silva - 	
-2. Noah Hammond	-[repo](https://github.com/NoahHammond1/MIST4610_CoffeeShop_Project)
+1. Donovan D'Silva - [repo](https://github.com/donmelsil/MIST4610_Group-Project)
+2. Noah Hammond	- [repo](https://github.com/NoahHammond1/MIST4610_CoffeeShop_Project/tree/main)
 3. Chase Lin - [repo](https://github.com/cinnamotz/mist4610gp1/tree/main)
-4. Krithin Lokasani	-
-5. Jessica Ngo -
+4. Krithin Lokasani	- [repo](https://github.com/lokasanikrithin-source/GP1MIST2610)
+5. Jessica Ngo - [repo](https://github.com/jn83499/Mist4610_Group-Project)
 
 ## Problem Description
 We were assigned a task to model and build a relational database for the general operations of a coffee shop. The central entity in the model is the Orders entity, as it represents each transaction made by customers and serves as the core around which the rest of the system operates. Orders connect key components of the business, including customers, employees, products, and payments.
@@ -15,18 +16,79 @@ The coffee shop operates with related entities such as products (menu items), su
 
 We are interested in accurately modeling these relationships, generating sample data, and populating the entities and their attributes. We aim to perform functional queries on this data to provide important and valuable business insights, such as identifying popular menu items, managing inventory needs, and supporting decision-making for purchasing and operational efficiency.
 ## Data Model
-![Coffee Shop Data Model](DataModel_CoffeeShop.png)
-
+![Date Model Screenshot](ProjectDataModel.png)
 ## Data Dictionary
-![Employee Data Dictionary]<img width="1560" height="841" alt="DataDict_Employees" src="https://github.com/user-attachments/assets/0b00ac91-8be9-4db2-9fe6-213d07688d7d" />
-
+![Employee Data Dictionary](DataDict_Employees.png)
 ![Customer Data Dictionary](DataDict_Customers.png)
-![StoreLocation and Loyalty Account Data Dictionary](DataDict_StoreLoc_Loyal.png)
+![Category and Store Location Data Dictionary](DataDict_Cat_StrLoc.png)
 ![Orders Data Dictionary](DataDict_Orders.png)
-![OrderItems Data Dictionary](DataDict_OrderItems.png)
+![OrderItems and Dictionary](DataDict_OrderItems.png)
 ![Products Data Dictionary](DataDict_Products.png)
-![Payments Data Dictionary](DataDict_Payments.png)
-![Category Data Dictionary](DataDict_Category.png)
-![Supplier and Product Supplier Data Dictionary](DataDict_Supplier_ProductSup.png)
+![Loyalty Account and Payment Data Dictionary](DataDict_Loy_Pmt.png)
+![Supplier and Product Supplier Data Dictionary](DataDict_Sup_ProdSup.png)
 ## Queries
+| Feature                     | Q1 | Q2 | Q3 | Q4 | Q5 | Q6 | Q7 | Q8 | Q9 | Q10 |
+|----------------------------|----|----|----|----|----|----|----|----|----|-----|
+| Multiple Table Join        | X  | X  |    | X  | X  |    | X  |    |    |     |
+| Subquery                   | X  |    |    | X  |    |    |    |    |    |     |
+| GROUP BY                   | X  | X  |    |    | X  | X  |    |    |    |     |
+| GROUP BY with HAVING       | X  |    |    |    |    |    |    |    |    |     |
+| Multi-condition WHERE      |    |    |    |  X |    |    |    |    |    |     |
+| Built-in Functions         | X  | X  | X  |    |    | X  |    |    |    |     |
+| REGEXP                     |    |    | X  |    |    |    |    |    |    |     |
+| NOT EXISTS                 |    |    |    |    |    |    |    |    |    |     |
+1. Query 1 finds customers who spend more than average by comparing each customer’s total spending to the overall average payment.
+   
+![Query1](Query1.png)
 
+Query 1 allows managers to identify the customers who spend the most, helping them focus on high-value customers. This allows them to create targeted promotions, loyalty rewards, and  strategies to increase revenue. It also helps them make smarter business decisions by understanding customer spending patterns.
+
+2. Query 2 adds up the quantity sold for each product and groups the results by product name so you can see the total units sold for each individual product.
+   
+![Query2](Query2.png)
+
+Query 2 allows managers to see which items are popular so they know what is selling well and what might not be selling well. By identifying top-performing items, managers can know which products to restock or promote more of. It also helps with inventory planning and forecasting demand, so they don’t overstock slow items or run out of popular ones.
+
+3. Query 3 finds the total amount of orders from Decemember 2025.
+
+![Query3](Query3.png)
+Query 3 allows for managers and employees to see the total amount of orders for a certain month. In the case of query 3 it is for the month of December. This is useful for managers as they can compare the total amount of orders in December to those of other months, which would help to show how orders increase or decrease from month to month. It would help to show how busy a store is based on the total monthly orders.
+
+4. Query 4 lists the total revenue generated by credit card payments during 2026. The results are ordered in descending order of total revenue.
+
+![Query4](Query4.png)
+Query 4 helps managers identify which customers are making large purchases using only credit cards during the 2026 fiscal year. If they notice that most of these high-value transactions come from a small group of repeat customers, it suggests those customers are especially engaged and valuable to the business. With that insight, managers could consider introducing a premium rewards program or offering exclusive perks to these high-spending customers, encouraging them to stay loyal and potentially increasing overall transaction values across store locations.
+
+5. Query 5 lists each store location alongside its total number of orders, total revenue generated, and average order value. The results are ordered in descending order of total revenue.
+
+![Query5](Query5.png)
+Query 5 allows managers to compare the performances of each store location against each other in a multitude of ways. The ways are total orders, total revenue, and average order value. Total orders would allow managers to understand how many total orders are being processed by each store relative to their counterparts, to understand which locations are seeing more volume. Total revenue gives a little more of this understanding, by allowing managers to dissect even further into which stores are the most profitable. Average order value allows managers to better understand which stores are able to generate more value based on each individual order, possibly justifying raised prices or expanded premium offerings at certain locations.
+
+6. Query 6 finds what payment method is used the most amongst all the stores.
+
+![Query6](Query6.png)
+Query 6 allows for managers to see what type of payment method is the most popular. The query shows that cash is used the least out of all payment methods. Managers might be able to adopt a card and mobile payments only store policy, since they would be faster for store purchases. It would take more time having to count cash and give that back to the customer if they decide to use that as a method of payment.
+
+7. Query 7 shows the amount of loyalty points attached to a customer ID in descending order.
+
+![Query7](Query7.png)
+Query 7 allows for customers to see the total amount of loyalty points they have. This is useful for when they need to redeem for different rewards. It would also be useful for employees and managers to see them when during or after a purchase to help loyalty point redemption.
+
+8. Query 8 shows all orders placed after March 1, 2026 with order numbers that start with 3.
+
+![Query8](<img width="1248" height="884" alt="Image 3-31-26 at 12 06 PM (1)" src="https://github.com/user-attachments/assets/4deb22d0-413b-47cc-b9f4-ca9d1bf13ba0" />
+)
+Query 8 allows businesses to see recent transactions and analyze them while focusing on specific categories of orders identified the starting number of their order number. For instance, the number 3 could only relate to in-store transactions so businesses would look at these orders if they want to inquire about them in any way. This is useful for managers and employees when evaluating short-term performance and understanding consumer behavior. 
+
+9. Query 9 shows customers that have not yet been served by specific employees at a given store location.
+
+![Query9](<img width="1272" height="894" alt="Image" src="https://github.com/user-attachments/assets/90c8f0d7-0631-450b-8017-94af6b5b922d" />)
+
+Query 9 allows managers to understand business distribution among employees, identify oppurtunities for employees to engage with new customers, and improve overall customer experience by ensuring a more balanced interaction with customers and employees. 
+
+
+
+## Database information
+Name of Database: al_Group_21482_G7
+
+Additional Info: Each query listed above is marked in the database used stored procedures which are called through the following format: CALL DNCKJ_Q() where "()" is the query number.
