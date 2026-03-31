@@ -74,14 +74,16 @@ Query 6 allows for managers to see what type of payment method is the most popul
 ![Query7](Query7.png)
 Query 7 allows for customers to see the total amount of loyalty points they have. This is useful for when they need to redeem for different rewards. It would also be useful for employees and managers to see them when during or after a purchase to help loyalty point redemption.
 
+
 8. Query 8 shows all orders placed after March 1, 2026 with order numbers that start with 3.
 
-![Query8](<img width="1248" height="884" alt="Image 3-31-26 at 12 06 PM (1)" src="https://github.com/user-attachments/assets/4deb22d0-413b-47cc-b9f4-ca9d1bf13ba0" />)
+![Query8](<img width="1248" height="884" alt="Query 8 image" src="https://github.com/user-attachments/assets/a96df327-3304-4316-a245-0d4a53d4609a" />)
 Query 8 allows businesses to see recent transactions and analyze them while focusing on specific categories of orders identified the starting number of their order number. For instance, the number 3 could only relate to in-store transactions so businesses would look at these orders if they want to inquire about them in any way. This is useful for managers and employees when evaluating short-term performance and understanding consumer behavior. 
 
 9. Query 9 shows customers that have not yet been served by specific employees at a given store location.
 
-![Query9](<img width="1248" height="884" alt="Image 3-31-26 at 12 06 PM (1)" src="https://github.com/user-attachments/assets/bf2dcf9f-362a-432b-b7c8-54d1fee657c8" />)
+![Query9]()
+
 
 Query 9 allows managers to understand business distribution among employees, identify oppurtunities for employees to engage with new customers, and improve overall customer experience by ensuring a more balanced interaction with customers and employees. 
 
