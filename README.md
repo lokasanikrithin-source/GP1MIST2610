@@ -35,8 +35,8 @@ We are interested in accurately modeling these relationships, generating sample 
 | GROUP BY with HAVING       | X  |    |    |    |    |    |    |    |    |     |
 | Multi-condition WHERE      |    |    |    |  X |    |    |    |    |    |     |
 | Built-in Functions         | X  | X  | X  |    |    | X  |    |    |    |     |
-| REGEXP                     |    |    | X  |    |    |    |    |    |    |     |
-| NOT EXISTS                 |    |    |    |    |    |    |    |    |    |     |
+| REGEXP                     |    |    | X  |    |    |    |    | X  |    |     |
+| NOT EXISTS                 |    |    |    |    |    |    |    |    |  X |     |
 1. Query 1 finds customers who spend more than average by comparing each customer’s total spending to the overall average payment.
    
 ![Query1](Query1.png)
