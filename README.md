@@ -81,7 +81,7 @@ Query 8 allows businesses to see recent transactions and analyze them while focu
 
 9. Query 9 shows customers that have not yet been served by specific employees at a given store location.
 
-![Query9](<img width="1272" height="894" alt="Image" src="https://github.com/user-attachments/assets/90c8f0d7-0631-450b-8017-94af6b5b922d" />)
+![Query9](<img width="1248" height="884" alt="Image 3-31-26 at 12 06 PM (1)" src="https://github.com/user-attachments/assets/bf2dcf9f-362a-432b-b7c8-54d1fee657c8" />)
 
 Query 9 allows managers to understand business distribution among employees, identify oppurtunities for employees to engage with new customers, and improve overall customer experience by ensuring a more balanced interaction with customers and employees. 
 
