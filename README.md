@@ -76,8 +76,7 @@ Query 7 allows for customers to see the total amount of loyalty points they have
 
 8. Query 8 shows all orders placed after March 1, 2026 with order numbers that start with 3.
 
-![Query8](<img width="1248" height="884" alt="Image 3-31-26 at 12 06 PM (1)" src="https://github.com/user-attachments/assets/4deb22d0-413b-47cc-b9f4-ca9d1bf13ba0" />
-)
+![Query8](<img width="1248" height="884" alt="Image 3-31-26 at 12 06 PM (1)" src="https://github.com/user-attachments/assets/4deb22d0-413b-47cc-b9f4-ca9d1bf13ba0" />)
 Query 8 allows businesses to see recent transactions and analyze them while focusing on specific categories of orders identified the starting number of their order number. For instance, the number 3 could only relate to in-store transactions so businesses would look at these orders if they want to inquire about them in any way. This is useful for managers and employees when evaluating short-term performance and understanding consumer behavior. 
 
 9. Query 9 shows customers that have not yet been served by specific employees at a given store location.
