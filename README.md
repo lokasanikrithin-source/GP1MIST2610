@@ -66,12 +66,12 @@ Query 5 allows managers to compare the performances of each store location again
 
 6. Query 6 finds what payment method is used the most amongst all the stores.
 
-![Query6](Query6.png)
+![Query6](https://github.com/user-attachments/assets/77b83ac0-a04a-4cb6-a621-3f6a6592ba4c)
 Query 6 allows for managers to see what type of payment method is the most popular. The query shows that cash is used the least out of all payment methods. Managers might be able to adopt a card and mobile payments only store policy, since they would be faster for store purchases. It would take more time having to count cash and give that back to the customer if they decide to use that as a method of payment.
 
 7. Query 7 shows the amount of loyalty points attached to a customer ID in descending order.
 
-![Query7](Query7.png)
+![Query7](https://github.com/user-attachments/assets/7033e2a7-e0d6-43b9-9d2c-bc0f95b471c9)
 Query 7 allows for customers to see the total amount of loyalty points they have. This is useful for when they need to redeem for different rewards. It would also be useful for employees and managers to see them when during or after a purchase to help loyalty point redemption.
 
 
