@@ -39,7 +39,7 @@ We are interested in accurately modeling these relationships, generating sample 
 | NOT EXISTS                 |    |    |    |    |    |    |    |    |  X |     |
 1. Query 1 finds customers who spend more than average by comparing each customer’s total spending to the overall average payment.
    
-![Query1](<img width="1139" height="324" alt="Query1" src="https://github.com/user-attachments/assets/b6cbaa6c-c86a-4513-a792-28521b4888a6" />)
+![Query1](https://github.com/user-attachments/assets/b6cbaa6c-c86a-4513-a792-28521b4888a6)
 
 Query 1 allows managers to identify the customers who spend the most, helping them focus on high-value customers. This allows them to create targeted promotions, loyalty rewards, and  strategies to increase revenue. It also helps them make smarter business decisions by understanding customer spending patterns.
 
