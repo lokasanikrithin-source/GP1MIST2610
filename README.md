@@ -16,7 +16,8 @@ The coffee shop operates with related entities such as products (menu items), su
 
 We are interested in accurately modeling these relationships, generating sample data, and populating the entities and their attributes. We aim to perform functional queries on this data to provide important and valuable business insights, such as identifying popular menu items, managing inventory needs, and supporting decision-making for purchasing and operational efficiency.
 ## Data Model
-![Date Model Screenshot](ProjectDataModel.png)
+
+![Date Model Screenshot](https://github.com/user-attachments/assets/d49fc096-50be-42ee-8ef5-bb0dfb922feb)
 ## Data Dictionary
 ![Employee Data Dictionary](DataDict_Employees.png)
 ![Customer Data Dictionary](DataDict_Customers.png)
@@ -45,7 +46,7 @@ Query 1 allows managers to identify the customers who spend the most, helping th
 
 2. Query 2 adds up the quantity sold for each product and groups the results by product name so you can see the total units sold for each individual product.
    
-![Query2](Query2.png)
+![Query2](https://github.com/user-attachments/assets/0706f9e3-bc22-4e4e-8539-568eec30060d)
 
 Query 2 allows managers to see which items are popular so they know what is selling well and what might not be selling well. By identifying top-performing items, managers can know which products to restock or promote more of. It also helps with inventory planning and forecasting demand, so they don’t overstock slow items or run out of popular ones.
 
