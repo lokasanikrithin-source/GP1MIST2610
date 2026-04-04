@@ -19,14 +19,14 @@ We are interested in accurately modeling these relationships, generating sample 
 
 ![Date Model Screenshot](https://github.com/user-attachments/assets/d49fc096-50be-42ee-8ef5-bb0dfb922feb)
 ## Data Dictionary
-![Employee Data Dictionary](DataDict_Employees.png)
-![Customer Data Dictionary](DataDict_Customers.png)
-![Category and Store Location Data Dictionary](DataDict_Cat_StrLoc.png)
-![Orders Data Dictionary](DataDict_Orders.png)
-![OrderItems and Dictionary](DataDict_OrderItems.png)
-![Products Data Dictionary](DataDict_Products.png)
-![Loyalty Account and Payment Data Dictionary](DataDict_Loy_Pmt.png)
-![Supplier and Product Supplier Data Dictionary](DataDict_Sup_ProdSup.png)
+![Employee Data Dictionary](https://github.com/user-attachments/assets/16eb99a6-1eff-4cb7-a8e4-52683a99ef8e)
+![Customer Data Dictionary](https://github.com/user-attachments/assets/443cfa8b-8651-4a4f-968a-b8a4500a6143)
+![Category and Store Location Data Dictionary](<img width="1414" height="725" alt="DataDict_Cat_StrLoc (2)" src="https://github.com/user-attachments/assets/3a8921d9-2bc0-45e8-b8b2-dfce43adf7c8)
+![Orders Data Dictionary](https://github.com/user-attachments/assets/109f23db-613f-4448-9357-a0fb38a7c6df)
+![OrderItems and Dictionary](https://github.com/user-attachments/assets/30a12863-8cef-4071-86c7-f84ab8bca830)
+![Products Data Dictionary](https://github.com/user-attachments/assets/e0bdccb7-78af-41ff-86d4-a99b3180dd9d)
+![Loyalty Account and Payment Data Dictionary](https://github.com/user-attachments/assets/0d7069a5-e563-45d1-a3c0-a6ffa9e4ddda)
+![Supplier and Product Supplier Data Dictionary](https://github.com/user-attachments/assets/84054961-e362-4b31-9982-4095a0f2860f)
 ## Queries
 | Feature                     | Q1 | Q2 | Q3 | Q4 | Q5 | Q6 | Q7 | Q8 | Q9 | Q10 |
 |----------------------------|----|----|----|----|----|----|----|----|----|-----|
