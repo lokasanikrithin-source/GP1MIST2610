@@ -21,7 +21,7 @@ We are interested in accurately modeling these relationships, generating sample 
 ## Data Dictionary
 ![Employee Data Dictionary](https://github.com/user-attachments/assets/16eb99a6-1eff-4cb7-a8e4-52683a99ef8e)
 ![Customer Data Dictionary](https://github.com/user-attachments/assets/443cfa8b-8651-4a4f-968a-b8a4500a6143)
-![Category and Store Location Data Dictionary](<img width="1414" height="725" alt="DataDict_Cat_StrLoc (2)" src="https://github.com/user-attachments/assets/3a8921d9-2bc0-45e8-b8b2-dfce43adf7c8)
+![Category and Store Location Data Dictionary](https://github.com/user-attachments/assets/3a8921d9-2bc0-45e8-b8b2-dfce43adf7c8)
 ![Orders Data Dictionary](https://github.com/user-attachments/assets/109f23db-613f-4448-9357-a0fb38a7c6df)
 ![OrderItems and Dictionary](https://github.com/user-attachments/assets/30a12863-8cef-4071-86c7-f84ab8bca830)
 ![Products Data Dictionary](https://github.com/user-attachments/assets/e0bdccb7-78af-41ff-86d4-a99b3180dd9d)
