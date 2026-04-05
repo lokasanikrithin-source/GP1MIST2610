@@ -89,6 +89,12 @@ Query 8 allows businesses to see recent transactions and analyze them while focu
 
 Query 9 allows managers to understand business distribution among employees, identify oppurtunities for employees to engage with new customers, and improve overall customer experience by ensuring a more balanced interaction with customers and employees. 
 
+10. Query 10 shows the suppliers who supply more than 1 product that are priced over 2 dollars.
+
+![Query10](Query10.png)
+Query 10 allows managers to see which suppliers provide the most products to the coffeeshop, focusing on products that are currently available and priced over $2.00. Managers can use this information to make better decisions about supplier relationships and inventory planning. Suppliers with more products and higher value products may be prioritized for future supply orders, and the suppliers with fewer products can be reconsidered for either improving relationships or terminating them.
+
+
 
 
 ## Database information
