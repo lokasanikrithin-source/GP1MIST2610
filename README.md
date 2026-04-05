@@ -91,7 +91,7 @@ Query 9 allows managers to understand business distribution among employees, ide
 
 10. Query 10 shows the suppliers who supply more than 1 product that are priced over 2 dollars.
 
-![Query10](Query10.png)
+![Query10](https://github.com/user-attachments/assets/c9ebd27a-d7bf-4515-91d2-89060bb1f0f2)
 Query 10 allows managers to see which suppliers provide the most products to the coffeeshop, focusing on products that are currently available and priced over $2.00. Managers can use this information to make better decisions about supplier relationships and inventory planning. Suppliers with more products and higher value products may be prioritized for future supply orders, and the suppliers with fewer products can be reconsidered for either improving relationships or terminating them.
 
 
